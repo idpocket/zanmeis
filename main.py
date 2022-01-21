@@ -56,17 +56,6 @@ class ZanMei(object):
             f.writelines(url)
             f.writelines('\n')
 
-
-
-        pass
-    def main(self):
-        self.parse_html()
-        while True:
-            try:
-                pass
-            except:
-                print('执行错误')
-
 if __name__ == '__main__':
     ON=1
     i = 98
